@@ -232,11 +232,11 @@ header {
     opacity: 0; } }
 
 #loading_string {
-  fill: #00aa55; }
+  fill: #123456; }
 
 #loading_motion {
   fill: none;
-  stroke: #00aa55;
+  stroke: #123456;
   stroke-dasharray: 400;
   stroke-dashoffset: 400;
   -webkit-animation: dash 8s linear forwards;
@@ -269,7 +269,7 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #00aa55; }
+    background-color: #123456; }
     section div p {
       border: 2px solid #fff;
       padding: 10px;
