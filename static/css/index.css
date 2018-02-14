@@ -1,0 +1,282 @@
+header {
+  position: static;
+  top: 0;
+  padding-bottom: 0;
+  opacity: 0; }
+  header img {
+    position: absolute;
+    left: calc(50% - 40px);
+    width: 80px; }
+  header #left {
+    position: absolute;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+    left: 20px;
+    top: 80vh;
+    font-size: 36px; }
+  header #right {
+    position: absolute;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    right: 20px;
+    top: 80vh;
+    font-size: 36px; }
+  header a {
+    text-decoration: none;
+    color: #00aa55; }
+  header nav {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    width: 450px; }
+    header nav ul {
+      list-style: none;
+      padding-left: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      header nav ul li {
+        -webkit-writing-mode: vertical-lr;
+            -ms-writing-mode: tb-lr;
+                writing-mode: vertical-lr; }
+        header nav ul li img {
+          width: 40px;
+          top: 60px; }
+      header nav ul li:nth-child(1) img {
+        left: 0px; }
+      header nav ul li:nth-child(2) img {
+        left: 110px; }
+      header nav ul li:nth-child(3) img {
+        left: 300px; }
+      header nav ul li:nth-child(4) img {
+        left: 410px; }
+
+#top {
+  position: relative; }
+  #top #ijm {
+    position: absolute;
+    top: 220px;
+    left: calc(50% - 79px); }
+
+#block {
+  opacity: 0;
+  height: 100;
+  width: 100%;
+  background-size: cover; }
+  #block img {
+    width: 60%;
+    padding-top: 300px;
+    margin: auto 20%; }
+
+#block, header, section {
+  -webkit-animation: example 2s ease 5.3s 1 forwards;
+          animation: example 2s ease 5.3s 1 forwards; }
+
+.item {
+  opacity: 0; }
+
+.item:nth-child(1) {
+  -webkit-animation: example 0.3s ease 0.3s 1 forwards;
+          animation: example 0.3s ease 0.3s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(2) {
+  -webkit-animation: example 0.3s ease 0.6s 1 forwards;
+          animation: example 0.3s ease 0.6s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(3) {
+  -webkit-animation: example 0.3s ease 0.9s 1 forwards;
+          animation: example 0.3s ease 0.9s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(4) {
+  -webkit-animation: example 0.3s ease 1.2s 1 forwards;
+          animation: example 0.3s ease 1.2s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(5) {
+  -webkit-animation: example 0.3s ease 1.5s 1 forwards;
+          animation: example 0.3s ease 1.5s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(6) {
+  -webkit-animation: example 0.3s ease 1.8s 1 forwards;
+          animation: example 0.3s ease 1.8s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(7) {
+  -webkit-animation: example 0.3s ease 2.1s 1 forwards;
+          animation: example 0.3s ease 2.1s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(8) {
+  -webkit-animation: example 0.3s ease 2.4s 1 forwards;
+          animation: example 0.3s ease 2.4s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(9) {
+  -webkit-animation: example 0.3s ease 2.7s 1 forwards;
+          animation: example 0.3s ease 2.7s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(10) {
+  -webkit-animation: example 0.3s ease 3s 1 forwards;
+          animation: example 0.3s ease 3s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(11) {
+  -webkit-animation: example 0.3s ease 3.3s 1 forwards;
+          animation: example 0.3s ease 3.3s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(12) {
+  -webkit-animation: example 0.3s ease 3.6s 1 forwards;
+          animation: example 0.3s ease 3.6s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(13) {
+  -webkit-animation: example 0.3s ease 3.9s 1 forwards;
+          animation: example 0.3s ease 3.9s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(14) {
+  -webkit-animation: example 0.3s ease 4.2s 1 forwards;
+          animation: example 0.3s ease 4.2s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(15) {
+  -webkit-animation: example 0.3s ease 4.5s 1 forwards;
+          animation: example 0.3s ease 4.5s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(16) {
+  -webkit-animation: example 0.3s ease 4.8s 1 forwards;
+          animation: example 0.3s ease 4.8s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+.item:nth-child(17) {
+  -webkit-animation: example 0.3s ease 5.1s 1 forwards;
+          animation: example 0.3s ease 5.1s 1 forwards; }
+
+#ijm {
+  -webkit-animation: non 0.3s ease 5.3s 1 forwards;
+          animation: non 0.3s ease 5.3s 1 forwards; }
+
+@-webkit-keyframes example {
+  100% {
+    opacity: 1; } }
+
+@keyframes example {
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes non {
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0; } }
+
+@keyframes non {
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 0; } }
+
+#loading_string {
+  fill: #00aa55; }
+
+#loading_motion {
+  fill: none;
+  stroke: #00aa55;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: dash 8s linear forwards;
+  animation: dash 4s linear forwards; }
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
+
+section {
+  opacity: 0;
+  position: relative; }
+  section h1 {
+    position: absolute;
+    left: 30px;
+    top: 30px; }
+    section h1 img {
+      width: 400px; }
+  section div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 120px 30px 30px 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #00aa55; }
+    section div p {
+      border: 2px solid #fff;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 5px;
+      width: 25%;
+      text-align: center;
+      font-family: "Nico Moji";
+      font-size: 24px; }
