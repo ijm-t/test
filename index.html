@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title> トップページ | 第91回五月祭</title>
+    <link rel="stylesheet" href="./static/css/index.css">
+</head>
+
+<body>
+
+
+    <main>
+        <div id="top">
+            <svg id="ijm" height="300px">
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x32_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x33_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x34__1_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x35_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x36_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x37_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x38_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x39_"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_0"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_1"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_2"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_3"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_4"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_5"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_6"/>
+                <use class="item" xlink:href="./static/svg/sprite.svg#a_x31_7"/>
+                <script>
+                    const items = document.getElementsByClassName("item");
+                    const colors = ["#1b813e","#8137d4","#b53734","#66bab7","#434343"];
+                    for(item of items){
+                        let color = colors[Math.floor(Math.random()*colors.length)];
+                        item.style.fill = color;
+                    }
+                </script>            
+            </svg>
+        </div>
+        <header>
+            <img src="./static/img/top.png">
+            <nav>
+                <ul>
+                    <li><img src="./static/img/torikumi.png"></li>
+                    <li><img src="./static/img/torikumi.png"></li>
+                    <li><img src="./static/img/torikumi.png"></li>
+                    <li><img src="./static/img/torikumi.png"></li>
+                </ul>
+            </nav>
+            <div id="left">
+                <a href="gogatsusai.jp/committee/">駒場祭</a>
+            </div>
+            <div id="right">
+                <a href="gogatsusai.jp/91/system/">五月祭</a>
+            </div>
+        </header>
+        <div id="block">
+            <img src="./static/img/background.png">
+        </div>
+        <section id="contents">
+            <h1><img src="./static/img/page.svg">
+            </h1>
+            <div>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+                <p>サイトポリシー</p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
